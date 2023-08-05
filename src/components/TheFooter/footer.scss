@@ -1,0 +1,19 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: var(--button, #000);
+  .footer {
+    .footer_title {
+      p {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5rem; /* 150% */
+        color: var(--primary, #fff);
+        text-align: center;
+      }
+    }
+  }
+}
